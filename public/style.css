@@ -1,0 +1,67 @@
+/* Update the body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333; /* Change text color to a darker shade */
+  background-color: #f5f5f5; /* Light gray background */
+  text-align: center;
+  line-height: 1.6em; /* Improved line spacing for readability */
+}
+
+/* Style the container */
+.container {
+  padding: 20px; /* Add padding for spacing inside the container */
+  margin-top: 40px;
+  background-color: #fff; /* White background for the container */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+/* Style the headings */
+h2, h3 {
+  color: #2574A9; /* Change heading text color to a nice blue */
+}
+
+/* Style the code block */
+code {
+  font-family: monospace;
+  padding: 5px; /* Increase padding for code blocks */
+  color: #333; /* Darken the code text color */
+  background-color: #f9f9f9; /* Light gray background for code blocks */
+  border: 1px solid #ddd; /* Add a border around code blocks */
+  border-radius: 4px; /* Add rounded corners to code blocks */
+}
+
+/* Style the links */
+a {
+  color: #2574A9;
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #135589; /* Darken link color on hover */
+}
+
+/* Style the footer */
+.footer {
+  margin-top: 40px;
+  color: #777; /* Light gray text color for the footer */
+}
+
+/* Style the example output container */
+.example-output {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  body {
+    font-size: 14px;
+  }
+}
